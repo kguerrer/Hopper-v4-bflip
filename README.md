@@ -1,3 +1,5 @@
-This project uses the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) API that single agent reinforcement learning environments. Here with use the agent Hopper from the MuJoCo environments. Let's try him make a backflip.
+## Project Overview
 
-This project aims to implemente the corresponding part of P. Christiano et al. https://arxiv.org/pdf/1706.03741 
+This project leverages the [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) API to work with single-agent reinforcement learning environments. Specifically, it focuses on using the Hopper agent from the MuJoCo environments, with the of training/(teaching?) the Hopper to perform a backflip.
+
+The project draws inspiration from and aims to implement the relevant components of the work by **P. Christiano et al.**, as detailed in their paper: ["Deep Reinforcement Learning from Human Preferences"](https://arxiv.org/pdf/1706.03741).
