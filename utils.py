@@ -15,13 +15,3 @@ def porte(x, a, b):
 
 def gaussp(x, mu, sigma):
     return np.exp(-((x - mu) / sigma) ** 2) * porte(x, -sigma/2, sigma/2)
-
-
-# A = np.linspace(-4*np.pi, 4*np.pi, 1000)
-# Y = []
-# for a in A:
-#     y = porte(a, -2*np.pi, 2*np.pi)
-#     Y.append(y)
-# plt.figure()
-# plt.plot(A, Y)
-# plt.show()
